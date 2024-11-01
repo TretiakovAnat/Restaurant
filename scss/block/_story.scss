@@ -1,0 +1,66 @@
+.story {
+  padding-top: 230px;
+}
+.story__conteiner {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+}
+.story__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.story__title {
+  font-size: 54px;
+  span {
+    color: #d67e34;
+  }
+}
+.story__subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #656363;
+}
+.story__amount {
+}
+.amount {
+  padding: 50px 0;
+  display: flex;
+  gap: 30px;
+}
+.amount__sum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.amont__summy {
+  font-size: 40px;
+  color: #bc9060;
+}
+.amount__name {
+  font-size: 20px;
+}
+
+
+.story__tabel {
+  background-image: url(../img/bg-tabel.png);
+  display: flex;
+  justify-content: space-between;
+  //   height: 360px;
+  align-items: center;
+  padding: 80px 160px;
+}
+.tabel {
+  max-width: 601px;
+}
+.tabel__title {
+  font-size: 52px;
+  color: #d67e34;
+  margin-bottom: 20px;
+}
+.tabel__text {
+  font-size: 24px;
+  color: #fff;
+}

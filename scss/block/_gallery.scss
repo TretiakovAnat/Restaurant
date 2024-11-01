@@ -1,0 +1,25 @@
+.gallery {
+}
+.gallery__conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.gallery__title {
+  color: #000;
+  span {
+    color: #d67e34;
+  }
+}
+.gallery__content {
+  display: flex;
+  gap: 30px;
+}
+.title {
+}
+.gallery__foto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}

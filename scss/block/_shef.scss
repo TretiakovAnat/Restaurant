@@ -1,0 +1,23 @@
+.shef {
+}
+.shef__conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.shef__title {
+  color: #000;
+  span {
+    color: #d67e34;
+  }
+}
+
+.shef__content {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+.shef__foto {
+}
